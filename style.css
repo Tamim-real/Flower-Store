@@ -46,9 +46,7 @@
     margin-top: 150px;
 }
 
-.hero-img{
-    width: 100%;
-}
+
 
 .hero-content{
     font-size: 4.0625rem;
@@ -60,7 +58,62 @@
     font-family:  "Inter", sans-serif;;
 }
 
+main{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+.heading{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.heading h2{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;;
+}
+.product-desc{
+    font-size: 1.375rem;
+    font-family:  "Inter", sans-serif;
+    margin-top: 1rem;
+}
+
+
+.cards{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    
+}
+.cards img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.card-content{
+    margin-top: 2rem;
+}
+.card-content h5, h4{
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.btn{
+    color:white;
+    background-color: #E95A08;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+}
 
 
 
@@ -127,6 +180,28 @@
     .hero-container p{
         font-size: 14px;
         margin-left: 1rem;
+    }
+
+    .heading h2{
+        font-size: 1.4rem;
+    }
+    .product-desc{
+        font-size: 0.875rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 0 10px;
+        margin-top: 1.5rem;
+    }
+
+   .card-content h5, h4{
+     font-size: 1rem;
+   }
+
+    .btn{
+        padding: 10px 40px;
     }
    
 }
