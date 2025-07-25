@@ -14,12 +14,12 @@
 <body>
     <header>
         <nav class="nav-main">
-            <img src="./assets/logo.png" alt="logo">
+            <img src="./assets/logo.png" class="nav-logo" alt="logo">
             <ul class="nav-ul">
                 <li class="res bold">Home</li>
                 <li class="res ash">Shop</li>
                 <li class="res ash">About us</li>
-                <li><i class="fa-solid fa-cart-shopping"></i> Cart(2$)</li>
+                <li class="cart"><i class="fa-solid fa-cart-shopping"></i> Cart(2$)</li>
             </ul>
         </nav>
         <section class="hero-container">
@@ -50,7 +50,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -58,7 +58,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -66,7 +66,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -74,7 +74,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -82,7 +82,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -90,7 +90,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -98,7 +98,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
             <div class="card">
@@ -106,7 +106,7 @@
                 <div class="card-content">
                     <h5>Lily Blossom</h5>
                     <h4 class="bold">20 USD</h4>
-                    <button class="btn">ADD TO CART</button>
+                    <button class="btn" onclick="showAlert()">ADD TO CART</button>
                 </div>
             </div>
 
@@ -187,7 +187,7 @@
 
     <footer>
         <div class="main-footer">
-            <div>
+            <div class="logo-desc">
                 <img src="./assets/logo.png" alt="Footer Logo">
                 <p class="ash footer-desc">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
             </div>
@@ -220,6 +220,12 @@
             </div>
         </div>
     </footer>
+
+    <script>
+            function showAlert() {
+                alert("Item added to cart");
+                        }
+    </script>
 </body>
 </html>
 

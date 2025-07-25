@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F6F8FE;
+}
+
 li{
     list-style: none;
 }
@@ -40,6 +44,7 @@ li{
 
 .nav-ul li{
     margin-left: 3rem;
+    margin-top: 20px;
 }
 
 /* hero banner section */
@@ -59,18 +64,15 @@ li{
 .hero-content{
     font-size: 4.0625rem;
     font-weight: bold;
-    font-family: "Noto Serif", serif;;
+    font-family: "Noto Serif", serif;
+    
 }
 .hero-container p{
     font-size: 1.375rem;
-    font-family:  "Inter", sans-serif;;
+    font-family:  "Inter", sans-serif;
 }
 
-/* main{
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-} */
+
 
 .heading{
     text-align: center;
@@ -80,7 +82,8 @@ li{
 .heading h2{
     font-size: 3.2rem;
     font-weight: bold;
-    font-family: "Noto Serif", serif;;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 30px;
 }
 .product-desc{
     font-size: 1.375rem;
@@ -143,6 +146,8 @@ li{
     margin: 0 auto;
     margin-top: 200px;
 }
+
+
 
 .second-field{
     position: relative;
@@ -274,7 +279,7 @@ li{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 
 }
 
@@ -309,7 +314,8 @@ input{
 
 .main-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 250px;
     width: 100%;
     font-family: "Noto Serif", serif;
 
@@ -376,6 +382,15 @@ input{
         margin: 1rem auto;
     }
 
+    .nav-logo{
+        margin-left: 10px;
+    }
+
+    .cart{
+        margin-right: 7px;
+        margin-top: 40px;
+    }
+
     .nav-ul .res{
         display: none;
     }
@@ -406,6 +421,7 @@ input{
 
     .heading h2{
         font-size: 1.4rem;
+        margin-bottom: 15px;
     }
     .product-desc{
         font-size: 0.875rem;
@@ -464,7 +480,10 @@ input{
 
     .container{
         grid-template-columns: 1fr;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-left: 12px;
+        margin-right:  12px;
+        
     }
 
     .right-column h2{
@@ -481,8 +500,9 @@ input{
 
 .join-section{
     
-    max-width: 400px;
+    max-width: 427px;
     margin: 0 auto;
+
     height: 275px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -511,6 +531,12 @@ input{
 
 .main-footer{
     flex-direction: column;
+    gap: 20px;
+    
+}
+
+.logo-desc{
+    margin-left: 10px;
 }
 
 .footer-desc{
@@ -520,6 +546,11 @@ input{
 
 .footer-list{
     grid-template-columns: 1fr;
+    margin-left: 10px;
+}
+
+.social-media{
+    margin-bottom: 10px;
 }
 
    
