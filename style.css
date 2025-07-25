@@ -1,4 +1,4 @@
-*{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,11 +66,11 @@ li{
     font-family:  "Inter", sans-serif;;
 }
 
-main{
+/* main{
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 .heading{
     text-align: center;
@@ -88,6 +88,11 @@ main{
     margin-top: 1rem;
 }
 
+.catalogue{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .cards{
     margin-top: 3rem;
@@ -129,8 +134,11 @@ main{
 .lover{
     display: flex;
     align-items:flex-start;
-    margin-top: 200px;
     gap: 120px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 200px;
 }
 
 .second-field{
@@ -249,6 +257,51 @@ main{
 }
 
 
+.join-section{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.join-section h2{
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 23px;
+    
+}
+.sub{
+    display: inline-block;
+    
+}
+
+input{
+    width: 644px;
+    padding: 10px 5px;
+}
+
+.btn-2{
+    color:white;
+    background-color: #E95A08;
+    padding: 12px 5px;
+    cursor: pointer;
+    width: 186px;
+    border-width: 0;
+    margin-left: -5px;
+}
 
 
 
@@ -382,5 +435,42 @@ main{
 #shop{
     font-size: 16px;
 }
+
+.head-join{
+    width: 100%;
+}
+
+.join-section{
+    
+    max-width: 422px;
+    margin: 0 auto;
+    height: 275px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.join-section h2{
+    font-size: 20px;
+    padding-top: 50px;
+    
+    
+}
+
+input{
+    max-width: 218px;
+    padding: 10px 5px;
+}
+
+.btn-2{
+    
+    
+    max-width: 100px;
+    
+}
+
+
+
    
 }
