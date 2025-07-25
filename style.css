@@ -86,6 +86,9 @@ li{
     font-size: 1.375rem;
     font-family:  "Inter", sans-serif;
     margin-top: 1rem;
+    width: 888px;
+    margin: 0 auto;
+    
 }
 
 .catalogue{
@@ -304,7 +307,42 @@ input{
 }
 
 
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: "Noto Serif", serif;
 
+}
+
+.footer-desc{
+    width: 250px;
+    
+}
+
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    
+}
+
+.footer-list li{
+    padding: 10px;
+}
+
+/* .social-media{
+    position: relative;
+} */
+
+.x{
+    position: relative;
+    top:-7px;
+}
+.social-media img{
+    padding-left: 10px;
+}
 
 
 
@@ -371,6 +409,7 @@ input{
     }
     .product-desc{
         font-size: 0.875rem;
+        width: 336px;
     }
 
     .cards{
@@ -442,7 +481,7 @@ input{
 
 .join-section{
     
-    max-width: 422px;
+    max-width: 400px;
     margin: 0 auto;
     height: 275px;
     margin-top: 50px;
@@ -470,7 +509,18 @@ input{
     
 }
 
+.main-footer{
+    flex-direction: column;
+}
 
+.footer-desc{
+    width: 300px;
+    
+}
+
+.footer-list{
+    grid-template-columns: 1fr;
+}
 
    
 }
