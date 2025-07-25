@@ -481,8 +481,8 @@ input{
     .container{
         grid-template-columns: 1fr;
         margin-top: 40px;
-        margin-left: 12px;
-        margin-right:  12px;
+        margin-left: 15px;
+        margin-right:  15px;
         
     }
 
