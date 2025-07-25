@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
 
 /* shared style */
 
@@ -15,6 +19,10 @@
 }
 .bold{
     font-weight: bold;
+}
+
+.hide{
+    display: none;
 }
 
 .nav-main{
@@ -105,6 +113,7 @@ main{
 .card-content h5, h4{
     font-size: 1.375rem;
     font-weight: 500;
+    margin-bottom: 0.875rem;
 }
 
 .btn{
@@ -113,9 +122,50 @@ main{
     padding: 15px;
     cursor: pointer;
     width: 100%;
+    border-width: 0;
 }
 
 
+.lover{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 200px;
+    gap: 120px;
+}
+
+.second-field{
+    position: relative;
+}
+
+.badge img{
+    width: 268px;
+    position: absolute;
+    top: -125px;
+    right: -100px;
+}
+
+
+.lover-content{
+    margin-top: 2rem;
+    
+}
+
+
+.lover-content h2{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    margin-left: -15px;
+}
+
+.lover-content li{
+    font-size: 22px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    list-style: disc;
+    margin-left: 40px;
+    margin-top: 30px;
+}
 
 
 
@@ -203,5 +253,42 @@ main{
     .btn{
         padding: 10px 40px;
     }
+
+
+    .lover{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+        align-items: center;
+        width: 100%;
+
+    }
+
+   .store-img {
+    display: block;
+    width: 100%;
+    max-width: 358px;
+    height: auto;
+    margin: 0 auto;
+}
+
+    .badge{
+        display: none;
+    }
+
+    .lover-content h2{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    .break{
+        display: none;
+    }
+
+    .lover-content li{
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    
    
 }
